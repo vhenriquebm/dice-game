@@ -9,14 +9,11 @@
 /* Begin PBXBuildFile section */
 		42CB021A27848B2800B6E189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB021927848B2800B6E189 /* AppDelegate.swift */; };
 		42CB021C27848B2800B6E189 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB021B27848B2800B6E189 /* SceneDelegate.swift */; };
-		42CB021E27848B2800B6E189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB021D27848B2800B6E189 /* ViewController.swift */; };
+		42CB021E27848B2800B6E189 /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB021D27848B2800B6E189 /* DiceViewController.swift */; };
 		42CB022127848B2800B6E189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CB021F27848B2800B6E189 /* Main.storyboard */; };
 		42CB022427848B2800B6E189 /* diceGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42CB022227848B2800B6E189 /* diceGame.xcdatamodeld */; };
 		42CB022627848B2A00B6E189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42CB022527848B2A00B6E189 /* Assets.xcassets */; };
 		42CB022927848B2A00B6E189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CB022727848B2A00B6E189 /* LaunchScreen.storyboard */; };
-		42CB023427848B2A00B6E189 /* diceGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB023327848B2A00B6E189 /* diceGameTests.swift */; };
-		42CB023E27848B2A00B6E189 /* diceGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB023D27848B2A00B6E189 /* diceGameUITests.swift */; };
-		42CB024027848B2A00B6E189 /* diceGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB023F27848B2A00B6E189 /* diceGameUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,17 +37,14 @@
 		42CB021627848B2800B6E189 /* diceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CB021927848B2800B6E189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42CB021B27848B2800B6E189 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		42CB021D27848B2800B6E189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42CB021D27848B2800B6E189 /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
 		42CB022027848B2800B6E189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42CB022327848B2800B6E189 /* diceGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = diceGame.xcdatamodel; sourceTree = "<group>"; };
 		42CB022527848B2A00B6E189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42CB022827848B2A00B6E189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42CB022A27848B2A00B6E189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42CB022F27848B2A00B6E189 /* diceGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diceGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42CB023327848B2A00B6E189 /* diceGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diceGameTests.swift; sourceTree = "<group>"; };
 		42CB023927848B2A00B6E189 /* diceGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diceGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42CB023D27848B2A00B6E189 /* diceGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diceGameUITests.swift; sourceTree = "<group>"; };
-		42CB023F27848B2A00B6E189 /* diceGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diceGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				42CB021827848B2800B6E189 /* diceGame */,
-				42CB023227848B2A00B6E189 /* diceGameTests */,
-				42CB023C27848B2A00B6E189 /* diceGameUITests */,
 				42CB021727848B2800B6E189 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,7 +95,7 @@
 			children = (
 				42CB021927848B2800B6E189 /* AppDelegate.swift */,
 				42CB021B27848B2800B6E189 /* SceneDelegate.swift */,
-				42CB021D27848B2800B6E189 /* ViewController.swift */,
+				42CB021D27848B2800B6E189 /* DiceViewController.swift */,
 				42CB021F27848B2800B6E189 /* Main.storyboard */,
 				42CB022527848B2A00B6E189 /* Assets.xcassets */,
 				42CB022727848B2A00B6E189 /* LaunchScreen.storyboard */,
@@ -111,23 +103,6 @@
 				42CB022227848B2800B6E189 /* diceGame.xcdatamodeld */,
 			);
 			path = diceGame;
-			sourceTree = "<group>";
-		};
-		42CB023227848B2A00B6E189 /* diceGameTests */ = {
-			isa = PBXGroup;
-			children = (
-				42CB023327848B2A00B6E189 /* diceGameTests.swift */,
-			);
-			path = diceGameTests;
-			sourceTree = "<group>";
-		};
-		42CB023C27848B2A00B6E189 /* diceGameUITests */ = {
-			isa = PBXGroup;
-			children = (
-				42CB023D27848B2A00B6E189 /* diceGameUITests.swift */,
-				42CB023F27848B2A00B6E189 /* diceGameUITestsLaunchTests.swift */,
-			);
-			path = diceGameUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42CB022427848B2800B6E189 /* diceGame.xcdatamodeld in Sources */,
-				42CB021E27848B2800B6E189 /* ViewController.swift in Sources */,
+				42CB021E27848B2800B6E189 /* DiceViewController.swift in Sources */,
 				42CB021A27848B2800B6E189 /* AppDelegate.swift in Sources */,
 				42CB021C27848B2800B6E189 /* SceneDelegate.swift in Sources */,
 			);
@@ -272,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42CB023427848B2A00B6E189 /* diceGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42CB024027848B2A00B6E189 /* diceGameUITestsLaunchTests.swift in Sources */,
-				42CB023E27848B2A00B6E189 /* diceGameUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
